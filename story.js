@@ -26,11 +26,18 @@ lightning.animate([lightningStart, lightningEnd],options).onfinish = hitTheVilla
 */
 
 /******Challenge #1 ***************/
+/* # hero character 'hero'
 let lightningStart  = {"left": "290px", "top": "320px"};
 let lightningEnd    = {"left": "900px", "top": "0px"};
+let options         = {"duration": 800}; */
+
+//# Replace character 'lego boy
+let lightningStart  = {"left": "290px"};
+let lightningEnd    = {"left": "900px"};
 let options         = {"duration": 800};
 
 //Run animation code here
 lightning.animate([lightningStart, lightningEnd],options).onfinish = hitTheVillain;
+
 
 /**********************************************/

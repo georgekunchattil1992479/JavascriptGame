@@ -16,7 +16,8 @@ body {
 #lightning {
   position: absolute;
   top: 320px;
-  left: 290px;
+  /* left: 290px; */
+  left: 420px;
   height: 120px;
   width: 120px;
 }
