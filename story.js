@@ -4,7 +4,7 @@ let villain = document.querySelector("#villain");
 let lightning = document.querySelector("#lightning");
 
 //Setup animation code here
-let lightningStart  = {"left": "290px"};
+/* let lightningStart  = {"left": "290px"};
 let lightningEnd    = {"left": "900px"};
 let options         = {"duration": 1000};
 
@@ -18,8 +18,19 @@ let hitTheVillain = () => {
        opacity:0
     };
     let options = {"duration": 1500};
-    villain.animate([villainStart, villanEnd], options);
+    villain.animate([villainStart, villanEnd], options); 
 }
 
 //Run animation code here
 lightning.animate([lightningStart, lightningEnd],options).onfinish = hitTheVillain;
+*/
+
+/******Challenge #1 ***************/
+let lightningStart  = {"left": "290px", "top": "320px"};
+let lightningEnd    = {"left": "900px", "top": "0px"};
+let options         = {"duration": 800};
+
+//Run animation code here
+lightning.animate([lightningStart, lightningEnd],options).onfinish = hitTheVillain;
+
+/**********************************************/
